@@ -1,0 +1,78 @@
+ *{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    color: #F2F2F2;
+ }
+ html, body {
+    height: 100%;
+    width: 100%;
+ }
+ #main{
+     height: 100%;
+     width: 100%;
+     background-color: black;
+ }
+ #nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
+ }
+#nav-part2{
+    display: flex;
+   
+    justify-content: space-around;
+    gap: 50px;
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#main h1{
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 90px;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+}
+#main h1:nth-child(2){
+    margin-top: 15%;
+}
+.t2{
+    text-align: center;
+}
+.t3{
+    text-align: center;
+}
+img{
+     height: 350px;
+     width: 200px;
+     position: absolute;
+     top: 10%;
+     left: 40%;
+}
+/* .photo1{
+    rotate: 8deg;
+} */
+.photo2{
+    rotate: 15deg;
+}
+.photo3{
+    rotate: 11deg;
+}
+.photo4{
+    rotate: 6deg;
+}
+.photo5{
+    rotate: 0deg;
+}
